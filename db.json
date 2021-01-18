@@ -1,0 +1,112 @@
+{
+  "pedidos": [
+    {
+      "id": 1,
+      "articulos": "Articulo 1, Articulo2",
+      "cantidad": 2,
+      "precio": 120.2,
+      "idCliente": 43002145
+    },
+    {
+      "id": 2,
+      "articulos": "Articulo 3, Articulo 4",
+      "cantidad": 5,
+      "precio": 500.12,
+      "idCliente": 43002145
+    }
+  ],
+  "asistencias": [
+    {
+      "id": 1,
+      "producto_de_servicio": "Producto 1",
+      "name": "Asistencia 1",
+      "descripcion": "Descripcion 1",
+      "estado": "abierta",
+      "creado_en": "Vigo",
+      "idCliente": 43002145
+    },
+    {
+      "id": 2,
+      "producto_de_servicio": "Producto 2",
+      "name": "Asistencia 2",
+      "descripcion": "Descripcion 2",
+      "estado": "cerrada",
+      "creado_en": "Gondomar",
+      "idCliente": 43002145
+    },
+    {
+      "producto_de_servicio": "Producto 2",
+      "descripcion": "Descripcion",
+      "estado": "Abierto",
+      "creado_en": "Gonda",
+      "idCliente": "11",
+      "id": 3
+    },
+    {
+      "producto_de_servicio": "Producto 2",
+      "descripcion": "Descripcion",
+      "estado": "Abierto",
+      "creado_en": "Gonda",
+      "idCliente": "11",
+      "id": 4
+    },
+    {
+      "producto_de_servicio": "Producto 2",
+      "descripcion": "Descripcion",
+      "estado": "Abierto",
+      "creado_en": "Gonda",
+      "idCliente": "11",
+      "id": 5
+    },
+    {
+      "producto_de_servicio": "Producto 2",
+      "descripcion": "Descripcion",
+      "estado": "Abierto",
+      "creado_en": "Gonda",
+      "idCliente": "11",
+      "id": 6
+    },
+    {
+      "producto_de_servicio": "Nuevo producto",
+      "descripcion": "Nueva descripcion",
+      "estado": "Nuevo estado",
+      "creado_en": "Gonda",
+      "idCliente": "11",
+      "id": 7
+    },
+    {
+      "producto_de_servicio": "Producto de Nina",
+      "descripcion": "Descripcion de Nina",
+      "estado": "Estado de Nina",
+      "creado_en": "Creado en Gonda",
+      "idCliente": 43002145,
+      "id": 8
+    }
+  ],
+  "partes": [
+    {
+      "id": 1,
+      "fecha": "2020-12-18",
+      "asunto": "Asistencia 1 Asunto 1",
+      "asistenciaId": 1
+    },
+    {
+      "id": 2,
+      "fecha": "2020-12-18",
+      "asunto": "Asistencia 1 Asunto 2",
+      "asistenciaId": 1
+    },
+    {
+      "id": 3,
+      "fecha": "2020-12-22",
+      "asunto": "Asistencia 2 Asunto 1",
+      "asistenciaId": 2
+    },
+    {
+      "id": 4,
+      "fecha": "2020-12-30",
+      "asunto": "Asistencia 2 Asunto 2",
+      "asistenciaId": 2
+    }
+  ]
+}
